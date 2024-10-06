@@ -3,16 +3,16 @@
 using namespace std;
 
 class DynamicArray {
-    int* ptr;  // указатель на динам. массив
-    int size;  // размер массива 
+    int* ptr;  
+    int size;
 public:
     DynamicArray();
     DynamicArray(int);
-    DynamicArray(const DynamicArray&);  // copy constructor
+    DynamicArray(const DynamicArray&); 
     ~DynamicArray();
 
-    void Input();  // rand
-    void Output() const;  // вывод на консоль
+    void Input();
+    void Output() const; 
     int* GetPointer() const;
     int GetSize() const;
 
